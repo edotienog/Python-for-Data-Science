@@ -1,0 +1,12 @@
+#set the value of a new variable to 3
+my_var = 3
+
+#Print the value assigned to my_var
+
+print(my_var)
+
+#change the value of the variable to 100
+my_var = 100
+
+#Print the new value assigned to my_var
+print (my_var)
