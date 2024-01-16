@@ -2,7 +2,7 @@ def get_taxes(earning):
     if earning < 12000:
         pay = earning * 0.75
     else: 
-        pay = earning * 0.75 
+        pay = earning * 0.70
     return pay
 
 ana_pay = get_taxes (9000)
