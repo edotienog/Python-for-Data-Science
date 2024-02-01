@@ -1,4 +1,6 @@
 def least_difference(a, b, c):
+    """Return the smallest difference between any two number among a, b, and c.
+    """
     diff1 = abs(a - b)
     diff2 = abs(b - c)
     diff3 = abs(a - c)
