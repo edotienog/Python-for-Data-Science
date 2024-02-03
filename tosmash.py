@@ -7,6 +7,11 @@ def to_smash(total_candies, num_friends =3):
     1
     >>> to_smash(91, 4)
     """
+    if total_candies == 1:
+        print("Splitting 1 candy")
+    else: 
+        print("Splitting", total_candies, "candies")
     return total_candies % num_friends
 
 print(to_smash(91, 4))
+print(to_smash(1))
