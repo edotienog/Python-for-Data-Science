@@ -8,6 +8,8 @@ def get_dose(weight):
         dose = 3.75 
     elif weight < 15.9:
         dose = 5
+    elif weight  < 21.2:
+        dose = 7.5 
     #Dosage is 10 ml for anyone 21.2 kg or over
     else:
         dose = 10

@@ -14,4 +14,4 @@ def losing_team_captain(teams):
         #Return none if the is no team in the list
     else: 
         return None
-print(losing_team_captain([['John', 'Peter', 'Mark', 'Andrew']]))
+print(losing_team_captain([['John', 'Peter', 'Mark', 'Andrew']])) #Use nested team to return the captain
