@@ -5,4 +5,7 @@ loud_short_planets = [
     for planet in planets 
     if len(planet)<6
 ] 
-print(loud_short_planets)
+# print(loud_short_planets)
+
+short_planets = [planet for planet in planets if len(planet)< 6]
+print(short_planets)
